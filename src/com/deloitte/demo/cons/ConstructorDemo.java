@@ -19,6 +19,8 @@ public class ConstructorDemo {
 		Employee obj3 = new Employee(103, "Tonu", 99000);
 		System.out.println(obj3.toString());
 
+		Employee obj4 = new Employee("Tonu", 99000);
+		System.out.println(obj4.toString());
 	}
 
 }
