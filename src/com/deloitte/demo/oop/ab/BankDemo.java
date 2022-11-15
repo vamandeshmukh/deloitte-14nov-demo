@@ -1,5 +1,9 @@
 package com.deloitte.demo.oop.ab;
 
+interface FinMin {
+
+}
+
 abstract class Rbi {
 
 	// concrete method - has both - method signature and method body
@@ -9,32 +13,30 @@ abstract class Rbi {
 
 	// abstract method - has only- method signature
 	public abstract void doKyc();
-
 }
 
-class IciciBank extends Rbi {
+class IciciBank extends Rbi implements FinMin {
 
+	@Override
 	public void doKyc() {
 		System.out.println("Kyc with Aadhaar");
 	}
-
 }
 
-class HdfcBank extends Rbi {
+class HdfcBank extends Rbi implements FinMin {
 
+	@Override
 	public void doKyc() {
 		System.out.println("Kyc with PAN");
 	}
 }
 
-public class Bank {
+public class BankDemo {
 
 	public static void main(String[] args) {
 
 		HdfcBank bank1 = new HdfcBank();
 		bank1.doKyc();
 		bank1.payInterest();
-
 	}
-
 }
