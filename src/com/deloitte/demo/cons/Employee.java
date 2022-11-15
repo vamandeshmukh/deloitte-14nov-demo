@@ -6,6 +6,10 @@ public class Employee {
 	String firstName;
 	double salary;
 
+	public Employee() {
+		System.out.println("constructor called");
+	}
+
 	@Override
 	public String toString() {
 		return "Employee [eid=" + eid + ", firstName=" + firstName + ", salary=" + salary + "]";
