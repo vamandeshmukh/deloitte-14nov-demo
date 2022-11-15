@@ -11,8 +11,6 @@ public class EmployeeDemo {
 		emp.salary = 90000;
 		
 		emp.work();
-
-
 		
 		
 	}
