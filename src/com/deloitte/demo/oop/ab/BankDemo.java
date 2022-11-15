@@ -2,6 +2,8 @@ package com.deloitte.demo.oop.ab;
 
 interface FinMin {
 
+	public abstract void paySalary();
+
 }
 
 abstract class Rbi {
@@ -21,6 +23,11 @@ class IciciBank extends Rbi implements FinMin {
 	public void doKyc() {
 		System.out.println("Kyc with Aadhaar");
 	}
+
+	@Override
+	public void paySalary() {
+		System.out.println("Icici paying salary");
+	}
 }
 
 class HdfcBank extends Rbi implements FinMin {
@@ -28,6 +35,11 @@ class HdfcBank extends Rbi implements FinMin {
 	@Override
 	public void doKyc() {
 		System.out.println("Kyc with PAN");
+	}
+
+	@Override
+	public void paySalary() {
+		System.out.println("Hdfc paying salary");
 	}
 }
 
@@ -38,5 +50,6 @@ public class BankDemo {
 		HdfcBank bank1 = new HdfcBank();
 		bank1.doKyc();
 		bank1.payInterest();
+		bank1.paySalary();
 	}
 }
