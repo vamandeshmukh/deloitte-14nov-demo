@@ -1,5 +1,14 @@
 package com.deloitte.demo.oop.en;
 
+/*
+ * Encapsulation - 
+ * process to bind data and code together 
+ * 
+ * create private fields and 
+ * create public methods to access those fields 
+ * (getters, setters)
+ */
+
 public class EncapDemo {
 
 	public static void main(String[] args) {
