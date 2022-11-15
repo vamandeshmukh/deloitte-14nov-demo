@@ -2,7 +2,8 @@ package com.deloitte.demo.oop.ab;
 
 interface FinMin {
 
-	public abstract void paySalary();
+//	public abstract void paySalary();
+	void paySalary();
 
 }
 
