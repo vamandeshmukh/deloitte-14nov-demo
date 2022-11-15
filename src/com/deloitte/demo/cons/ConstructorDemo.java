@@ -3,9 +3,9 @@ package com.deloitte.demo.cons;
 /*
  * Constructor - 
  * - a special type of method 
+ * - does not have return type
  * - needed to create objects 
  * - name is same as class name 
- * - does not have return type
  * - available by default 
  * - can also be created manually 
  * - if we create our constructors, 
