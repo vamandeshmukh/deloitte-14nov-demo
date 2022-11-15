@@ -8,7 +8,7 @@ public class SwitchDemo {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter num:");
+		System.out.println("Enter num:"); 
 		int num = sc.nextInt();
 
 		switch (num) {
