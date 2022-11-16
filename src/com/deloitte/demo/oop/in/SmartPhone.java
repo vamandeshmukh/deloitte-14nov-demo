@@ -6,4 +6,9 @@ public class SmartPhone extends FeaturePhone {
 		System.out.println("Clicking pics...");
 	}
 
+	@Override
+	public void music() {
+		System.out.println("Playing Dolby DTS music...");
+	}
+
 }

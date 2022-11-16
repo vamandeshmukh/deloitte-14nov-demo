@@ -33,3 +33,23 @@ public class AbstractDemo {
 	// abstract method need to be implemented in a concrete class to use it
 
 }
+
+
+
+
+/* self learning topics 
+ * exception handling 
+
+collection framework 
+
+functional interface 
+
+lamdba methods 
+
+streams API 
+
+functional programming in Java 
+
+
+ * */
+
