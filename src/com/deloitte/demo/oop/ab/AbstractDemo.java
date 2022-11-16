@@ -1,6 +1,29 @@
 package com.deloitte.demo.oop.ab;
 
+abstract class AbClass {
+
+}
+
+interface Int1 {
+
+	public abstract void absMethod();
+//	void absMethod();
+
+	public static void nonAbsMethod() {
+		System.out.println("nonAbsMethod");
+	}
+}
+
 public class AbstractDemo {
+
+	public static void main(String[] args) {
+		
+		Int1.nonAbsMethod();
+
+//		AbClass obj = new AbClass();		
+//		Int1 obj2 = new Int1();
+
+	}
 
 	// a class can extend only one another class
 	// a class can implement one or more interfaces
