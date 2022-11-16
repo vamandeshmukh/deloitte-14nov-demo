@@ -6,6 +6,7 @@ public class OverloadingDemo {
 
 //		Calc.addNums(10); // CE 
 		Calc.addNums(10, 20);
+		Calc.addNums(10, 21L);
 		Calc.addNums(10, 20, 30);
 		Calc.addNums(10, 20, 30, 40);
 //		Calc.addNums(10, 20, 30, 40, 50); // CE 

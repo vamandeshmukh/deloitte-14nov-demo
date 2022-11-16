@@ -17,7 +17,7 @@ interface Int1 {
 public class AbstractDemo {
 
 	public static void main(String[] args) {
-		
+
 		Int1.nonAbsMethod();
 
 //		AbClass obj = new AbClass();		
@@ -34,22 +34,29 @@ public class AbstractDemo {
 
 }
 
-
-
-
-/* self learning topics 
+/*
+ * self learning topics 
  * exception handling 
-
-collection framework 
-
-functional interface 
-
-lamdba methods 
-
-streams API 
-
-functional programming in Java 
+ * collection framework 
+ * functional interface 
+ * lamdba methods 
+ * streams API 
+ * functional programming in Java
+ * 
+ */
 
 
- * */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
